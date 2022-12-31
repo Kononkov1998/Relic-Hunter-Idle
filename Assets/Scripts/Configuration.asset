@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231f1ce81c944e7f8ca63b276bb7136b, type: 3}
+  m_Name: Configuration
+  m_EditorClassIdentifier: 
+  <TreasureHunterData>k__BackingField:
+    <Prefab>k__BackingField: {fileID: 5174415425014056003, guid: 83f162048b668254e85f325b68542e50,
+      type: 3}
+    <MaxCount>k__BackingField: 1
+    <MovementSpeed>k__BackingField: 5
+    <RotationSpeed>k__BackingField: 720
+    <WaitTimeBetweenWalking>k__BackingField: 1
+    <WalkRadius>k__BackingField: 5
+    <ChanceToFindTreasure>k__BackingField: 10
+  <TreasureDiggerData>k__BackingField:
+    <Prefab>k__BackingField: {fileID: 848165489109944391, guid: 6d7613fe13b1a114f9095ceed6085bd4,
+      type: 3}
+    <MaxCount>k__BackingField: 1
+    <MovementSpeed>k__BackingField: 5
+    <RotationSpeed>k__BackingField: 720
+    <SqrDigTreasureRange>k__BackingField: 2
+  <TreasureCollectorData>k__BackingField:
+    <Prefab>k__BackingField: {fileID: 674960268556100967, guid: b9acbcd72fca5de4d882ee8b01e8871b,
+      type: 3}
+    <MaxCount>k__BackingField: 1
+    <MovementSpeed>k__BackingField: 5
+    <RotationSpeed>k__BackingField: 720
+    <SqrPickUpTreasureRange>k__BackingField: 2
+  <FlagPrefab>k__BackingField: {fileID: 7560948914724024728, guid: 4fb4508b0eea0184393e7af0bc2ded3e,
+    type: 3}
+  <TreasurePrefab>k__BackingField: {fileID: 7560948914724024728, guid: 8bb62dc7bd7167e4bb22469dc84898c6,
+    type: 3}
+  <TimerViewPrefab>k__BackingField: {fileID: 1149981113682625008, guid: 2f34dd4b8b5ab254bb8fff0750098c8c,
+    type: 3}
+  <CameraData>k__BackingField:
+    <CameraSmoothTime>k__BackingField: 0.1
+    <CameraFollowOffset>k__BackingField: {x: 0, y: 10, z: -10}
