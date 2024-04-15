@@ -208,6 +208,7 @@ GameObject:
   - component: {fileID: 2550865218675558450}
   - component: {fileID: -4156349743918824490}
   - component: {fileID: 5174415425014056003}
+  - component: {fileID: -7685980475635707889}
   m_Layer: 0
   m_Name: Treasure Hunter
   m_TagString: Untagged
@@ -282,3 +283,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   <NavMeshAgent>k__BackingField: {fileID: -4156349743918824490}
+--- !u!114 &-7685980475635707889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9143338046459962954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 037fd77f17894934ac743a170942c6e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _navMeshAgent: {fileID: -4156349743918824490}

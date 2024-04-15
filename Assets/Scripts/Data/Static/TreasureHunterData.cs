@@ -1,9 +1,6 @@
 using System;
-using MonoBehaviours;
-using MonoBehaviours.Base;
 using MonoBehaviours.View;
 using UnityEngine;
-using EntityView = MonoBehaviours.EntityView;
 
 namespace Data.Static
 {

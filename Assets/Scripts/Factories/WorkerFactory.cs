@@ -65,7 +65,7 @@ namespace Factories
         {
             EcsEntity entity = _ecsWorld.NewEntity();
             WorkerView view = Object.Instantiate(data.Prefab, spawnPoint);
-            view.AttachEntity(entity);
+            //view.AttachEntity(entity);
 
             ref NavMeshAgentProvider navMeshAgentProvider = ref entity.Get<NavMeshAgentProvider>();
             navMeshAgentProvider.Value = view.NavMeshAgent;

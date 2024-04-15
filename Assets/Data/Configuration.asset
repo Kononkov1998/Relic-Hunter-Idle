@@ -28,6 +28,7 @@ MonoBehaviour:
     <MovementSpeed>k__BackingField: 5
     <RotationSpeed>k__BackingField: 720
     <SqrDigTreasureRange>k__BackingField: 2
+    <DigTime>k__BackingField: 1
   <TreasureCollectorData>k__BackingField:
     <Prefab>k__BackingField: {fileID: 674960268556100967, guid: b9acbcd72fca5de4d882ee8b01e8871b,
       type: 3}
@@ -35,6 +36,7 @@ MonoBehaviour:
     <MovementSpeed>k__BackingField: 5
     <RotationSpeed>k__BackingField: 720
     <SqrPickUpTreasureRange>k__BackingField: 2
+    <CollectTime>k__BackingField: 1
   <FlagPrefab>k__BackingField: {fileID: 7560948914724024728, guid: 4fb4508b0eea0184393e7af0bc2ded3e,
     type: 3}
   <TreasurePrefab>k__BackingField: {fileID: 7560948914724024728, guid: 8bb62dc7bd7167e4bb22469dc84898c6,

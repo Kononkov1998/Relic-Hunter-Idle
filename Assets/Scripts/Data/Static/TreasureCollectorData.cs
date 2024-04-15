@@ -1,5 +1,4 @@
 using System;
-using MonoBehaviours;
 using MonoBehaviours.View;
 using UnityEngine;
 
@@ -12,7 +11,7 @@ namespace Data.Static
         [field: SerializeField] public int MaxCount { get; private set; }
         [field: SerializeField] public float MovementSpeed { get; private set; }
         [field: SerializeField] public float RotationSpeed { get; private set; }
-
         [field: SerializeField] public float SqrPickUpTreasureRange { get; private set; }
+        [field: SerializeField] public float CollectTime { get; private set; }
     }
 }

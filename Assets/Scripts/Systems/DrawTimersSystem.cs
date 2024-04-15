@@ -56,10 +56,11 @@ public class DrawTimersSystem<T> : IEcsRunSystem where T : struct
         entity.Del<TimerVisualRequest>();
         var timer = entity.Get<Timer<T>>();
         EcsEntity visualEntity = _ecsWorld.NewEntity();
+        
         Image view = Object.Instantiate(_configuration.TimerViewPrefab, _ui.ActionTimersCanvas);
         view.GetComponent<EntityView>().AttachEntity(visualEntity);
-
         view.fillAmount = 1 - timer.Value / timer.StartValue;
+        
         visualEntity.Replace(new TimerVisual<T>
         {
             TimerEntity = entity,

@@ -1,9 +1,10 @@
+using MonoBehaviours.Base;
 using UnityEngine;
 using UnityEngine.AI;
 
 namespace MonoBehaviours.View
 {
-    public class WorkerView : EntityView
+    public class WorkerView : MonoEntity
     {
         [field: SerializeField] public NavMeshAgent NavMeshAgent { get; private set; }
 

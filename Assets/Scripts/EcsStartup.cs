@@ -55,18 +55,26 @@ public sealed class EcsStartup : MonoBehaviour
 
         _updateSystems
             .Add(new DestroySystem())
+            
             .Add(new SpawnTreasureHuntersSystem())
             .Add(new TreasureHuntersMoveSystem())
             .Add(new FindTreasureSystem())
+            
             .Add(new SpawnTreasureDiggersSystem())
             .Add(new AssignFlagsSystem())
             .Add(new DigTreasureSystem())
+            
             .Add(new SpawnTreasureCollectorsSystem())
             .Add(new AssignTreasureSystem())
             .Add(new CollectTreasureSystem())
+            
             .Add(new UpdateUISystemTest())
             .Add(new DrawTimersSystem<FindTreasureTimer>())
+            .Add(new DrawTimersSystem<DigTreasureTimer>())
+            .Add(new DrawTimersSystem<CollectTreasureTimer>())
             .Add(new TimerSystem<FindTreasureTimer>())
+            .Add(new TimerSystem<DigTreasureTimer>())
+            .Add(new TimerSystem<CollectTreasureTimer>())
             .OneFrame<SpawnedThisFrameEvent>()
             .Inject(Configuration)
             .Inject(SceneData)
